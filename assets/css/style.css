@@ -1,0 +1,438 @@
+@import url("https://fonts.googleapis.com/css2?family=Intel+One+Mono:ital,wght@0,300..700;1,300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Special+Gothic:wght@400..700&display=swap");
+* {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.top-bar {
+  height: 40px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.top-bar span {
+  font-weight: 700;
+}
+.navbar {
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 30px;
+}
+.navbar .logo img {
+  width: 50px;
+  margin-right: 60px;
+}
+
+.navbar .links {
+  display: flex;
+  gap: 10px;
+}
+.navbar .links a {
+  color: black;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 600;
+}
+.navbar .nav-icons a {
+  color: black;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 600;
+}
+.navbar .nav-icons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.banner {
+  height: 550px;
+  background-image: url(../images/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 20px;
+  border-radius: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 40px;
+  color: white;
+}
+.banner button {
+  height: 50px;
+  width: 130px;
+  border: none;
+  background-color: white;
+  color: black;
+  border-radius: 50px;
+  font-weight: 600;
+}
+.banner h1 {
+  font-size: 50px;
+}
+.new-collection {
+  height: max-content;
+  margin-top: 80px;
+}
+.new-collection h1 {
+  text-align: center;
+  font-size: 60px;
+}
+.new-collection p {
+  text-align: center;
+}
+.new-collection .card-container .card {
+  height: max-content;
+  width: 30%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.new-collection .card-container .card .card-image {
+  height: 320px;
+  border-radius: 16px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.new-collection .card-container .card p {
+  text-align: left;
+}
+.new-collection .card-container .card h2 {
+  font-size: 28px;
+}
+.new-collection .card-container .card h3 {
+  font-size: 22px;
+}
+.card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.new-collection .card-container .card1 .card-image {
+  background-image: url(../images/shrit2.jpg);
+}
+.new-collection .card-container .card2 .card-image {
+  background-image: url(../images/shirt11.jpg);
+}
+.new-collection .card-container .card3 .card-image {
+  background-image: url(../images/shirt6.jpg);
+}
+.new-collection .card-container .card4 .card-image {
+  background-image: url(../images/shirt9.jpg);
+}
+.new-collection .card-container .card5 .card-image {
+  background-image: url(../images/shirt7.jpg);
+}
+.new-collection .card-container .card6 .card-image {
+  background-image: url(../images/shirt8.jpg);
+}
+.wear-to-wedding-banner {
+  height: 450px;
+  background-color: red;
+  margin: 60px;
+  border-radius: 16px;
+  background-image: url(../images/wear-to-adding.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.wear-to-wedding-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.wear-to-wedding-content h1 {
+  font-size: 50px;
+}
+.wear-to-wedding-content p {
+  color: rgba(128, 128, 128, 0.721);
+}
+.wear-to-wedding-content button {
+  padding: 20px 40px;
+  border-radius: 50px;
+  border: none;
+  background-color: black;
+  color: white;
+  font-size: 15px;
+}
+.categories {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-top: 80px;
+}
+.categories .card {
+  height: 350px;
+  width: 25%;
+  background-color: red;
+  border-radius: 20px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+.categories .card h1 {
+  font-size: 50px;
+  color: rgba(255, 255, 255, 0.6);
+}
+.categories .card button {
+  padding: 15px 50px;
+  border-radius: 50px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.6);
+  color: black;
+  font-size: 15px;
+}
+.categories .card1 {
+  background-image: url(../images/winterShirt3.jpg);
+}
+.categories .card2 {
+  background-image: url(../images/winterShirt6.jpg);
+}
+.categories .card3 {
+  background-image: url(../images/winterShirt2.jpg);
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 60px;
+}
+footer .new-letter {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+  width: 60%;
+}
+footer .new-letter img {
+  width: 100px;
+}
+footer .new-letter p {
+  color: gray;
+}
+footer .new-letter input {
+  height: 40px;
+  width: 250px;
+  border-radius: 50px;
+  padding: 0px 10px;
+  border: 1px solid gray;
+}
+footer .new-letter button {
+  height: 50px;
+  width: 120px;
+  border-radius: 50px;
+  background-color: black;
+  color: white;
+  border: none;
+}
+.footer-links-container {
+  display: flex;
+  gap: 100px;
+}
+.footer-links-container .footer-links {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.footer-links-container .footer-links p {
+  font-weight: 800;
+}
+
+.footer-links-container .footer-links ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.footer-links-container .footer-links ul li a {
+  text-decoration: none;
+  color: black;
+}
+.bottom-bar {
+  height: 60px;
+  background-color: black;
+  color: white;
+  padding: 0px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bottom-bar .terms {
+  display: flex;
+  gap: 25px;
+}
+.bottom-bar .terms a {
+  color: white;
+  text-decoration: none;
+}
+/* ✅ Mobile First Approach */
+
+/* Small devices (mobiles < 576px) */
+@media (max-width: 576px) {
+  .top-bar {
+    font-size: 12px;
+    text-align: center;
+    padding: 5px;
+  }
+
+  .navbar {
+    flex-direction: column;
+    height: auto;
+    gap: 10px;
+  }
+
+  .navbar .links {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+  }
+
+  .banner {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: auto;
+    padding: 20px;
+  }
+
+  .banner h1 {
+    font-size: 28px;
+  }
+
+  .banner button {
+    width: 100px;
+    height: 40px;
+    font-size: 14px;
+  }
+
+  .new-collection h1 {
+    font-size: 32px;
+  }
+
+  .new-collection .card-container .card {
+    width: 100%;
+  }
+
+  .wear-to-wedding-banner {
+    margin: 20px;
+    height: 250px;
+  }
+
+  .wear-to-wedding-content h1 {
+    font-size: 28px;
+  }
+
+  .categories {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .categories .card {
+    width: 90%;
+    height: 250px;
+  }
+
+  footer {
+    flex-direction: column;
+    gap: 30px;
+    padding: 40px 20px;
+  }
+
+  .footer-links-container {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .bottom-bar {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+}
+
+/* Medium devices (tablets 577px–768px) */
+@media (max-width: 768px) {
+  .navbar {
+    padding: 0 15px;
+  }
+
+  .banner h1 {
+    font-size: 36px;
+  }
+
+  .new-collection h1 {
+    font-size: 40px;
+  }
+
+  .new-collection .card-container .card {
+    width: 45%;
+  }
+
+  .categories {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .categories .card {
+    width: 45%;
+    height: 300px;
+  }
+
+  footer {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+  }
+
+  .footer-links-container {
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+}
+
+/* Large devices (laptops/desktops 769px–1200px) */
+@media (max-width: 1200px) {
+  .banner h1 {
+    font-size: 42px;
+  }
+
+  .new-collection h1 {
+    font-size: 50px;
+  }
+
+  .new-collection .card-container .card {
+    width: 30%;
+  }
+
+  .categories .card {
+    width: 30%;
+  }
+
+  footer {
+    padding: 60px 40px;
+  }
+}
+/* Extra large devices (large desktops 1201px and up) */
+@media (min-width: 1201px) {
+  .new-collection .card-container .card {
+    width: 22%;
+  }
+
+  .categories .card {
+    width: 22%;
+  }
+}
