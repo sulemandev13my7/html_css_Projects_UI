@@ -1,0 +1,104 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* .container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.box{
+    height: 150px;
+    width: 150px;
+    background-color: orange;
+    cursor: pointer;
+    transition-property: background-color;
+    transition-duration: 3s;
+}
+.box:hover{
+    background-color: purple;
+} */
+
+
+/* second task */
+/* .container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.box{
+    height: 150px;
+    width: 150px;
+    background-color: orange;
+    cursor: pointer;
+    transition-property: background-color;
+    transition-property: width;
+    transition-property: height;
+    transition-duration: 3s;
+}
+.box:hover{
+    background-color: purple;
+    /* width: 300px; */
+    /* height: 200px;
+}  */
+
+/* Third task
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.box{
+    height: 150px;
+    width: 150px;
+    background-color: orange;
+    cursor: pointer;
+    transition-property: background-color;
+    transition-property: width;
+    transition-property: height;
+    transition-duration: 3s;
+    transition-property: all;
+}
+.box:hover{
+    background-color: purple;
+    width: 300px;
+    height: 200px;
+} */
+
+
+/* Fourth task */
+/* .container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.box{
+    height: 150px;
+    width: 150px;
+    background-color: orange;
+    cursor: pointer;
+    /* transition-property: all; */
+
+    /* transition-duration: 3s;
+    transition-timing-function: linear;
+    transition-delay: 3s; */
+
+    /* transition: all 3s ease-in 2s;
+}
+.box:hover{
+    background-color: purple;
+    width: 300px;
+    height: 200px;
+} */ 
+
+
+

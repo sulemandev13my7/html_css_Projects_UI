@@ -1,0 +1,117 @@
+        /* sab say zyada external css ka use karty hai q k multiple pages par apply hota hai agar link dy */
+        /* tag and element selector */
+        
+        h1 {
+            background-color: pink;
+            font-size: 40px;
+        }
+        
+        h2 {
+            background-color: gray;
+        }
+        
+        ul {
+            background-color: aquamarine;
+        }
+        /* id base selection and # hash based selection acha id humaysha unique hogi*/
+        
+        #hea {
+            background-color: salmon;
+        }
+        
+        #ulo {
+            background-color: yellow;
+        }
+        /* base selection and class base selection acha class ko use kar saktay hai grouping k lie*/
+        
+        .third {
+            background-color: green;
+        }
+        /* acha id or class dono aik element may use kar saktay hai */
+        /* group base selection matlab do alag class ko select karna ye tag or element or class or id ko aik sath select karna */
+        
+        .sal,
+        .man {
+            background-color: chartreuse;
+        }
+        
+        h1,
+        .third,
+        #ulo {
+            background-color: aqua;
+        }
+        /* rgb red 0-255 green 0-255 blue 0-255 its number form */
+        
+        h1 {
+            background-color: rgb(106, 47, 164);
+        }
+        /*  rgb and forth vaue alpha ye batahy ga transparency k baray may 0 par kam hogi 9 par sab asy zyada hogi  */
+        
+        h1 {
+            background-color: rgba(206, 206, 23, 0.2);
+        }
+        /* aik or jis may background color ko hsl say mark kar saktay hai */
+        /* us may teen value dy saktay hai hue , saturation, lightness so hue value 0 say 360 and saturation 0-100% and lightness 0-100% */
+        /* hue means pure color itself  0 means red 120 is green 240 is blue*/
+        /* saturation means intensity of vibrancy of color 0% is gray , 100 % is must vivid of color*/
+        /* lightness maens bightness of color 0% is black 50% is normal 100 % is white */
+        /* the syntax hsl(hue, saturation, lightness) and hsl() for tarnsparency */
+        /* syntax */
+        /* h2{
+    background-color: hsl(hue,saturation,lightness);
+} */
+        /* h2 {
+    background-color: hsl(110, 50%, 50%);
+} */
+        /* syntax */
+        /* h2 {
+    background-color: hsla(hue, saturation, lightness, alpha);
+} */
+        /* h2 {
+    background-color: hsla(120, 50%, 50%, 0.6);
+} */
+        /* it is a hexadecimal form  us vaue may do value red ko do value green ko do value blue ko*/
+        /* h2 {
+    background-color: #639747;
+/* }
+
+
+
+/* FONT */
+        /* px full form picture element */
+        /* pixcel ka koyi size nahi hota  owo screen par depend karta hai 1 px 3 bytes leta hai */
+        /* h1 {
+            font-size: larger;
+        } */
+        /* em matlab jo mera size hoga wo mearay parent k multiple may hoga */
+        /* ul {
+            font-size: 15px;
+        }
+        
+        li {
+            font-size: 1em;
+        } */
+        /* rem root element ka double yani multiple hota hai acha  root element humaysha html tag hoga*/
+        /* html {
+            font-size: 40px;
+        }
+        
+        h2 {
+            font-size: 2rem;
+        } */
+        /*  aik or ata hai viewport width vw matlabvisible screen hai us ki width  k us tar vh viewport height b hai*/
+        /* h2 {
+            font-size: 5vh;
+        } */
+        /* percent unit % jo mera direct parent element hai us k relative may mera size kitna hoga */
+        /* li {
+            font-size: 50%;
+        } 
+        */
+        /* font family font-weight 100 say 900 tak jata hai font sytyle matlab ap italic etc kar saktay ho
+        */
+        /* li {
+            font-family: sans-serif;
+            font-weight: 900;
+            font-style: italic;
+        } */

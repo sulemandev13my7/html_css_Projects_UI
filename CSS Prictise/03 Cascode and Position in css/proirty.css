@@ -1,0 +1,34 @@
+/* do jaga html k style background volor hai tu conflect ho raha hai us ko kasay manage karay  */
+/* sab say zyada priority inline css ko di jahy gi
+ us k bad internal css ki pir external css ki
+ ye bat b galat hai tu yaha par ordering b matter karta hai tu jo last may aya hai usi ko pority di jahy gi final wala apply hoga */
+/* dori bath agar same element ko hum style inline internal or external css dy or id or classs b dy tu sab say zyada wo id ko piriority dy ga q k unique hoti hai wo dosray number par wo class ko q k aik element k multiple class b ho saktay hai thiry number par inline css ko tag say q nahi target nahi karta q k tag multiple ho saktay hai tu gitna ap specific  jaho gy us ki prority itni zyada hogi acha us may orderwise matter nahi karta */
+/* Cascading means !important(high priority) inline css (prority high) pir id (prority) ko pir class(priority) ko pir tag(h1,h2) ko pir Tie hoga means same tag ya element tu ordering important hogi bad walay ko prefer karen gy */
+/* h1{
+    background-color: #00ffff;
+}
+#firstId{
+    background-color: pink;
+}
+.classA{
+    background-color: green;
+} */
+
+/* acha jab tie hoga matlab h1 tag ya element ko do dafa target karen gy tu ordering important hogi bad walay ko prefer karen gy */
+
+/* h1{
+    background-color: yellow;
+}
+h1{
+    background-color: gold;
+} */
+
+/* acha may chata ho k jo may nay likha hai yaha wo final rahy wo inline css ko b override karay tu yaha par !important ap lagahy selector may */
+/* 
+h1{
+    background-color: pink !important;
+}
+h1{
+    background-color: red;
+} */
+

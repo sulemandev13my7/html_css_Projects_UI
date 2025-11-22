@@ -1,0 +1,112 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Verdana;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+.container {
+  width: 100%;
+  height: 100%;
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDZSgIHV4hrYt2LW3xfNlQABva69IHk-XdYYthJjw8OyaS9QMOw1bS6jsj6KmzoVWVWD0&usqp=CAU");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper {
+  width: 100%;
+  height: 100%;
+  max-width: 25rem;
+  max-height: 40rem;
+  background-color: white;
+  border-radius: 10px;
+  padding: 2rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container .wrapper h1 {
+  text-align: center;
+  margin: 2rem 0;
+  font-weight: bolder;
+}
+.container .wrapper form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.container .wrapper .text_field {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+.container .wrapper .text_field:nth-child(2) {
+  margin-top: 1rem;
+}
+.container .wrapper .text_field label {
+  color: rgba(0, 0, 0, 0.795);
+}
+.container .wrapper .text_field div {
+  width: 100%;
+  position: relative;
+}
+.container .wrapper .text_field .input_box_icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.container .wrapper .text_field input {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.705);
+  padding-bottom: 6px;
+  padding-left: 2rem;
+  /* font-size: 16px; */
+}
+
+.container .wrapper .forgot {
+  margin: 1rem 0;
+  text-align: right;
+  color: blue;
+  cursor: pointer;
+  font-size: 12px;
+}
+.container .wrapper button {
+  width: 100%;
+  padding: 10px;
+  background: linear-gradient(to right, skyblue, rgb(235, 12, 235));
+  font-weight: bold;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 1rem;
+}
+.container .wrapper .signup_text {
+  font-size: 12px;
+  margin-top: 1rem;
+}
+.container .wrapper .icons {
+  display: flex;
+  margin-top: 10px;
+  gap: 1rem;
+  font-size: 24px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+.container .wrapper .icons p:hover {
+  transform: scale(1.2);
+  color: purple;
+  padding: 2px;
+}

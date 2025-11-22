@@ -1,0 +1,48 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+}
+h2{
+    background-color: gold;
+    position: relative;
+    left: 100px; */
+    /* top: 50px; */
+    /* bottom: 30px; */
+    /* right: 20px; */
+/* } */
+/* h3{
+    background-color: pink;
+    position: fixed;
+    top: 0px;
+    left: 50px;
+} */
+/* relative apnay jaga ko resered kar k rakh ta hai waha par kuch b content na ho pir b  */
+/* relative ko hila saktay hai kahi b move out kara saktay hai laken wo kude k relative may hota hai or apnay sapce ko ghir k rakhta hai */
+/* fixed jo hai pir apni position ko chor deta hai  */
+
+/* h4{
+    background-color: brown;
+    position: sticky;
+    top: 4px;
+} */
+/* sticky ko ap top may bata ho gy k jab ap ssscroll hon gy tu kitna scroll hona hoga ap ko pir ap jaga say nahi hilo gy matlab jaisay hi top say 3px a jaho tu waha par mujay strick kar dena  */
+
+
+/* p{
+    background-color: gold;
+    position: absolute;
+    left: 50px;
+    top: 190px;
+} */
+/* absoute apnay space ko chor deta hai or ye apnay nearest accesstor ko dekhta hai k jis ki may nay positioning ko set kar k rakha hai agar us ki koyi nearest accesstor set hai tu ye us k coresponding may kude ko set karay ga  */
+
+/* p{
+    background-color: gold;
+    position: absolute;
+    left: 50px;
+    top: 190px;
+    z-index: 10px;
+} */
+/* agar may chata ho absolute wala oper dikhay tu z index ka use kar saktay hai tu bydefaut value 0 hoti hai jis ki jitni zyada hogi wo oper a ta jahy ga */
+
+

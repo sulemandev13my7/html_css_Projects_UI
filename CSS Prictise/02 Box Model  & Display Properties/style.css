@@ -1,0 +1,169 @@
+/* h1 { */
+/* background-color: gold;
+  height: 100px;
+  width: 200px; */
+/*   
+  border-width: 15px;
+  border-style: solid;
+  border-color: green; */
+
+/* border: 5px solid green;
+
+  padding: 10px;
+
+  margin: 30px; */
+
+/* border-top: 10px solid black; */
+/* border-right: 10px solid black; */
+/* border-left: 10px solid black; */
+/* border-bottom: 10px solid black; */
+
+/* border-radius: 20px; */
+
+/* padding-top: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px; */
+
+/* padding: 10px 15px 20px 25px; */
+
+/* padding: 20px 40px; */
+
+/* margin: 50px; */
+/* margin: 20px 20px; */
+/* margin-top: 20px;
+  margin-right: 10px;
+  margin-left: 25px;
+  margin-bottom: 30px; */
+
+/* margin: 12px 15px 20px 30px; */
+
+/* } */
+
+/* h2 {
+  background-color: pink;
+  border: 2px solid blue;
+} */
+
+/* p {
+  background-color: salmon;
+  padding: 20px;
+  border: 5px solid wheat;
+  margin: 35px;
+} */
+
+/* Block element  */
+/* div h1 h2 h3 h4  p all */
+/*  jo block level element hotay hai wo new line say start hotay hai*/
+/* ap block level par height or width laga saktay hai */
+/* us par ap padding or margin apply kar saktay ho */
+/* Inline Element */
+/* anchar tag <a> <span> */
+/* ye height width apnay oper applay nahi kartay */
+/* inline element kehta hai agar padding or margin apply karna hai tu horizontal apply kar saktay ho vertical applay nahi kar sakhty ho */
+
+/* span {
+  color: blue;
+  background-color: red;
+} */
+
+/* default cheezo ko band karna  or kuch apply karna */
+/* so * is a universal selector  */
+/* *{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    background-color: rebeccapurple;
+    padding: 30px;
+    height: 50px;
+    width: 200px;
+    margin: 40px;
+}
+h2{
+    background-color: brown;
+} */
+/* span{ */
+/* background-color: salmon; */
+/* not apply  */
+/* width: 100px;
+    height: 100px; */
+/* only horizontically apply not vertical */
+/* padding: 20px;
+    margin: 10px; */
+/* not change */
+/* margin-top: 500px;
+    padding-top: 40px; */
+/* change */
+/* padding-right: 40px;
+    padding-left: 40px;
+    margin-left: 30px;
+    margin-right: 40px; */
+/* } */
+
+/* acha block element b inline ki tara behave kar sakta hai */
+
+/* h1 {
+  background-color: salmon;
+  height: 30px;
+  width: 30px;
+  display: inline;
+}
+h2{
+  display: inline;
+  background-color: yellow;
+} */
+
+/* acha inline element ko b bolck ki tara convert kar sakta ho jaisay span  */
+
+/* span{
+  background-color: red;
+  display: block;
+  height: 200px;
+  width: 100px;
+} */
+
+/* tu display jo hai kisi ko kisi may cnvert kar sakata hai bas ap ko mark karna hai */
+
+/* ab hum display inline block ko dekhtay hai */
+/* display: inline-block; the best of both words this is ahybrid the element  will
+set on he same line as other element (line-inline)
+but it will repect width, height,margin-too,and margin-bottom (like-block)
+usecase creating a grid of card or a set of buttons that need to be a specific size but also sit side-by-side */
+/* matlab aik aisa element hai jo dono behave kar sakta hai or sath may width or height b dy saktay ho laken agar sath may koyi or element kki jaga hogi tu ye us ko b jaga dy sakta hai acha ye ap k margin top padding sab ko repect karay ga */
+/* h1{
+  background-color: aqua;
+  height: 200px;
+  width: 300px;
+  display: inline-block;
+}
+
+h2{
+  background-color: aqua;
+  display: inline-block;
+} */
+
+/* or */
+/* acha box sizing par a tay hai jab ap box sizing ko border box mark karty hai tu us time jo height or width hoti hai wo siraf content ki nahi hoti us may content walaor padding wala b include hoga or ap ka border b include hoga ye teeno cheezay included hogi  height or width k andar 
+tu content box may height or width siraf content ki hai to content say hoga 
+or dosra boder box wo border say hoga matlab kude ko divide karay ga
+Border-box = border-width + padding-width + content-width = width
+content-box = content-width = */
+h1 {
+  background-color: aqua;
+  height: 300px;
+  width: 300px;
+  border: 10px solid orange;
+  padding: 20px;
+  box-sizing: content-box;
+}
+
+h2 {
+  background-color: aqua;
+  height: 300px;
+  width: 300px;
+  padding: 20px;
+  border: 10px solid orange;
+  box-sizing: border-box;
+}

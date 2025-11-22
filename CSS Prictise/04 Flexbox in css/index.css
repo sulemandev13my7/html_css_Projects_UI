@@ -1,0 +1,43 @@
+/* flexbox  */
+/* flexbox k lie parent or child k relation hona zaroori hai un k beach may flexbox lagaya ja sakta hai */
+/* jo parent hai us ka name container or jo child hai us ka name  item dy dy tay hai */
+/* flexbox may do ceezay important hai aik main axis aik cross axis */
+/* flexbox k main container par flex- direction display flex justify content align item flex wrap sab laga saktay hai */
+/* flexbox k child par hum flex grow or flex shrink or flex basis or flex align self laga saktay hai */
+.container {
+  background-color: rgb(192, 181, 166);
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* flex-wrap: wrap; */
+  gap: 15px;
+}
+/* justify content main axis k around kam karta hai or main acess decide flex direction karay ga or flex direction k lie display flex likhna hota hai */
+/* align item cross acess par kam karta hai */
+.box {
+  height: 100px;
+  width: 100px;
+  margin: 5px;
+}
+
+.first {
+  background-color: orange;
+  /* flex-grow: 1; */
+  flex-basis: 200px;
+}
+.second {
+  background-color: green;
+  flex-basis: 300px;
+  /* flex-grow: 2; */
+  /* flex-shrink: 4; */
+}
+.third {
+  background-color: red;
+  align-self: flex-start;
+  /* flex-grow: 3; */
+}
+.forth {
+  background-color: chartreuse;
+}
