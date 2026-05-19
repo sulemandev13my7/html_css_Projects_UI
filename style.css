@@ -1,0 +1,255 @@
+@import url("https://fonts.googleapis.com/css2?family=Intel+One+Mono:ital,wght@0,300..700;1,300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Special+Gothic:wght@400..700&display=swap");
+
+* {
+  font-family: "Inter", sans-serif;
+}
+.wear-to-wedding-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.wear-to-wedding-content h1 {
+  font-size: 50px;
+}
+.wear-to-wedding-content p {
+  color: rgba(128, 128, 128, 0.721);
+}
+.wear-to-wedding-content button {
+  padding: 20px 40px;
+  border-radius: 50px;
+  border: none;
+  background-color: black;
+  color: white;
+  font-size: 15px;
+}
+.categories {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-top: 80px;
+}
+.categories .card {
+  height: 350px;
+  width: 25%;
+  background-color: red;
+  border-radius: 20px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+.categories .card h1 {
+  font-size: 50px;
+  color: rgba(255, 255, 255, 0.6);
+}
+.categories .card button {
+  padding: 15px 50px;
+  border-radius: 50px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.6);
+  color: black;
+  font-size: 15px;
+}
+.categories .card1 {
+  background-image: url(./images/winterShirt3.jpg);
+}
+.categories .card2 {
+  background-image: url(./images/winterShirt6.jpg);
+}
+.categories .card3 {
+  background-image: url(./images/winterShirt2.jpg);
+}
+
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  gap: 30px;
+}
+
+.portfolio-item {
+  position: relative;
+  max-width: 100%;
+  height: 200px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.portfolio-image {
+  position: relative;
+  overflow: hidden;
+}
+
+.portfolio-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.portfolio-item:hover .portfolio-image img {
+  transform: scale(1.1);
+}
+
+.portfolio-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    135deg,
+    rgba(0, 217, 255, 0.95),
+    rgba(26, 22, 80, 0.95)
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.portfolio-item:hover .portfolio-overlay {
+  opacity: 1;
+}
+
+.portfolio-info {
+  text-align: center;
+  padding: 20px;
+  transform: translateY(20px);
+  transition: transform 0.4s ease;
+}
+
+.portfolio-item:hover .portfolio-info {
+  transform: translateY(0);
+}
+
+.portfolio-info h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.portfolio-info p {
+  color: white;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.portfolio-links {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.portfolio-link {
+  width: 45px;
+  height: 45px;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.portfolio-link:hover {
+  background: #fff;
+  color: #1a1650;
+  transform: translateY(-3px);
+}
+
+
+/* Tablet */
+@media (max-width: 992px) {
+  .portfolio-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .wear-to-wedding-content h1 {
+    font-size: 38px;
+    text-align: center;
+  }
+
+  .wear-to-wedding-content p {
+    text-align: center;
+    padding: 0 20px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .portfolio-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .portfolio-item {
+    height: auto;
+  }
+
+  .portfolio-image img {
+    height: 250px;
+  }
+
+  .wear-to-wedding-content {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .wear-to-wedding-content h1 {
+    font-size: 30px;
+    line-height: 1.2;
+  }
+
+  .wear-to-wedding-content p {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  .wear-to-wedding-content button {
+    padding: 14px 30px;
+    font-size: 14px;
+  }
+
+  .portfolio-info h3 {
+    font-size: 22px;
+  }
+
+  .portfolio-info p {
+    font-size: 13px;
+  }
+}
+
+/* Small Mobile */
+@media (max-width: 480px) {
+  .wear-to-wedding-content h1 {
+    font-size: 24px;
+  }
+
+  .portfolio-image img {
+    height: 220px;
+  }
+
+  .portfolio-link {
+    width: 40px;
+    height: 40px;
+  }
+
+  .portfolio-link ion-icon {
+    font-size: 20px;
+  }
+}
