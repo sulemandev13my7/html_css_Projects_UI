@@ -49,3 +49,11 @@ https://html-css-projects-ui-salman.vercel.app/Forms/index5.html
 best look login Form
 https://html-css-projects-ui-salman.vercel.app/Forms/index7.html
 
+Flexbox Based Project
+https://html-css-projects-ui-salman.vercel.app/01FlexboxProject/index.html
+
+Bonanza UI Formed
+https://html-css-projects-ui-salman.vercel.app/02Bonanza-clone/index.html
+
+Food Resturent website
+https://html-css-projects-ui-salman.vercel.app/04-Bootstrap-Project/index.html
